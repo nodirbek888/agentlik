@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:#f8f4fe;
+  font-family: 'Rubik', sans-serif;
+}
+
+.title{
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (max-width:550px){
+    .title{
+      font-size: 25px;
+    }
+} 
+ 
+.sub-title{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (max-width:550px){
+  .sub-title{
+      font-size: 16px;
+  }
+} 
+
+.description{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+@media screen and (max-width:550px){
+  .description{
+      font-size: 18px;
+  }
+} 
+
+.small-description{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+@media screen and (max-width:550px){
+  .small-description{
+      font-size: 12px;
+  }
+} 
+
+.des_carusel{
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+@media screen and (max-width:550px){
+  .des_carusel{
+      font-size: 18px;
+  }
+} 
+
+.text-center{
+  text-align: center;
+}
