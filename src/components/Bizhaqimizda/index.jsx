@@ -1,15 +1,13 @@
 import React from 'react'
 import { Container,Wrapper,WrapLeft,WrapRight } from './style'
-import Navbar from '../../components/Navbar'
 import Button from '../../Generic/Button/index'
 import tel from '../../assets/img/tel.png'
 import Card from './Card/index'
 
 const BizHaqimizda = () => {
   return (
-    <Container>
+    <Container className='bizhaqimizda'>
       <div className='wrapper'>
-      <Navbar/>
       <Wrapper>
           <WrapLeft>
             <h1 className='title res_wrap'>Digital company -

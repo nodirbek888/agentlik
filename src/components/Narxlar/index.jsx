@@ -7,14 +7,22 @@ import "swiper/css/navigation";
 import Button from '../../Generic/Button/index'
 
 
-import { Navigation } from "swiper";
+import { Navigation, Pagination, Mousewheel, Keyboard  } from "swiper";
 
 export default function App() {
   return (
-    <Container>
-      <h1 className="description padding res_wrap">Biz xizmatlarimizni qanday narxlarda taqdim qilamiz?</h1>
+    <Container className="narxlar">
       <h1 className="description padding res_wrap">SMM</h1>
-      <Swiper  navigation={true} modules={[Navigation]} className="mySwiper">
+      <h1 className="description padding res_wrap">Biz xizmatlarimizni qanday narxlarda taqdim qilamiz?</h1>
+      <Swiper 
+                cssMode={true}
+                navigation={true}
+                pagination={true}
+                mousewheel={true}
+                keyboard={true}
+                modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                className="mySwiper"
+      >
         {/* card1 */}
         <SwiperSlide className="card">
           <Wrapper>

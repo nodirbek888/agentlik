@@ -3,9 +3,10 @@ import styled from 'styled-components';
 const getType = (type) => {
 	switch (type) {
 		case 'primary':
-		return { userSelect:'none', background: '#E148B4',  color: '#ffffff', border: 'none', borderRadius:'50px' };
+		return { userSelect:'none', background: '#E148B4',  color: '#ffffff', border: 'none', borderRadius:'50px',fontFamily: "'Rubik', sans-serif"
+	};
 		case 'secondary':
-			return { border: '3px solid #E148B4', background:'transparent', color: '#ffffff',borderRadius:'50px' };
+			return { border: '3px solid #E148B4', background:'transparent', color: '#ffffff',borderRadius:'50px' ,fontFamily: "'Rubik', sans-serif"};
 		default:
 			return {
 				border: '1px solid black',
@@ -24,7 +25,7 @@ const Container = styled.button`
 	font-style: normal;
 	font-weight: 400;
 	border-radius: 2px;
-	font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	width: ${({ width }) => (width ? width : 'auto')};

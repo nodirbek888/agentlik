@@ -31,10 +31,14 @@ const Wrapper = styled.div`
         display: flex;    
         text-align: center;
         flex-direction: column;
+        margin-top: 80px;
     }
 
     @media screen and (max-width:550px) {
         padding: 0px 0px;
+    }
+    @media screen and (min-width:1920px) {
+        padding: 0px 250px;
     }
 `
 
@@ -46,10 +50,10 @@ const WrapLeft =styled.div`
         gap: 10px;
         margin-top: 20px;
 
-        @media screen and (max-width:550px){
-            flex-direction: column;
-            margin-top: 30px;
-        }
+            @media screen and (max-width:550px){
+                flex-direction: column;
+                margin-top: 30px;
+            }
     }
 
     .res_wrap{
@@ -71,6 +75,7 @@ const WrapLeft =styled.div`
         width: 350px;
         align-items: center;
     } 
+
 
 `
 
