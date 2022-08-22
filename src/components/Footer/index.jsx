@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Wrapper,WrapLeft,WrapRight} from './style'
+import {Container,Wrapper,WrapLeft,WrapRight,Icon} from './style'
 import like from '../../assets/img/like.png'
 import Imput from '../../Generic/Input/index'
 import Button from '../../Generic/Button/index'
@@ -13,10 +13,21 @@ const Footer = () => {
                 <div>
                     <h2 className='sub-title_white'>Manzilni yozomiz dolor, sit consectetur adipiscing</h2>
                 </div>
-                <div className='email_tel'>
+                <div className='communication'>
                     <a className='sub-title_white' href="#">loremipsum@gmail.com</a>
                     <p className='sub-title_white'>+99893 337 24 31</p>
                     <p className='sub-title_white'>+99893 094 65 52</p>
+                    <div className='communication_item'>
+                        <a href="#">
+                        <Icon.Telegram/>
+                        </a>
+                        <a href="#">
+                        <Icon.Youtube/>
+                        </a>
+                        <a href="#">
+                        <Icon.Instagram/>
+                        </a>
+                    </div>
                 </div>
                 <div className='img_wrap'>
                     <img className='img_like' src={like} alt="img" />

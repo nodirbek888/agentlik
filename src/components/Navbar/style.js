@@ -18,11 +18,11 @@ const Container = styled.div`
 
 const Header = styled.header`
 	width: 100%;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	padding: 0px 150px;
 	justify-content: space-between;
-	height: 100px;
 	background: linear-gradient(98.73deg, #3C11B7 48.56%, #E148B4 116.62%);
 	-webkit-touch-callout: none; //IOS safari
 	-webkit-user-select: none; //safari
@@ -32,7 +32,7 @@ const Header = styled.header`
 	user-select: none;
 
 	@media screen and (max-width:1116px) {
-	padding: 0px 20px;
+		padding: 0px 20px;
     }
 `;
 

@@ -52,7 +52,7 @@ const Wrapper = styled.div`
 `
 
 const CardOne = styled.div`
-    width: 330px;
+    width: 30%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -67,10 +67,14 @@ const CardOne = styled.div`
         flex-direction: column;
         gap: 3px;
     }
+
+    @media screen and (max-width:1110px) {
+        width: 300px;
+    }
 `
 
 const CardTwo = styled.div`
-    width: 330px;
+    width: 30%;
     height: fit-content;
     min-height: 470px;
     display: flex;
@@ -83,6 +87,9 @@ const CardTwo = styled.div`
         display: flex;
         flex-direction: column;
         gap: 5px;
+    }
+    @media screen and (max-width:1110px) {
+        width: 300px;
     }
 `
 export {Container,Wrapper,CardOne,CardTwo}

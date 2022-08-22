@@ -53,7 +53,7 @@ const Wrapper = styled.div`
 
 
 const Cards = styled.div`
-    width: 300px;
+    width: 30%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -62,6 +62,10 @@ const Cards = styled.div`
     text-align: center;
     @media screen and (max-width:550px) {
         width: 200px;
+    }
+
+    @media screen and (max-width:1110px) {
+        width: 300px;
     }
 `
 

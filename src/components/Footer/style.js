@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { ReactComponent as telegram } from "../../assets/icon/tlegem_icon.svg";
+import { ReactComponent as youtube } from "../../assets/icon/youtube_icon.svg";
+import { ReactComponent as instagram } from "../../assets/icon/instagram_icon.svg";
 
 const Container = styled.div`
     width: 100%;
@@ -50,7 +53,36 @@ const WrapLeft = styled.div`
     @media screen and (max-width:1116px) {
         order: 2;
     }
+
+    .communication{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .communication_item{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        @media screen and (max-width:1116px) {
+            margin-top: 10px;
+            justify-content: center;
+        }
+    }
     `
+
+const Icon = styled.div``
+Icon.Telegram = styled(telegram)`
+    width:40px;
+`
+Icon.Instagram = styled(instagram)`
+    width:40px;
+`
+Icon.Youtube = styled(youtube)`
+    width:40px;
+`
+
 const WrapRight = styled.div`
     width: 650px;
     height: fit-content;
@@ -112,4 +144,4 @@ const WrapRight = styled.div`
     }
 `
 
-export {Container,Wrapper,WrapLeft,WrapRight}
+export {Container,Wrapper,WrapLeft,WrapRight,Icon}
