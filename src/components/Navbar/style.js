@@ -76,8 +76,12 @@ const LinkSection = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	.active {
-		color: blue;
+
+	.title_hover{
+		transition-duration: 0.5s;
+		&:hover{
+			color: #E148B4;
+		}
 	}
 `;
 
@@ -119,11 +123,14 @@ const Navlink = styled.a`
 	display: inline-block;
 	color: white;
 	cursor: pointer;
+
+	
+	.active {
+		color: #E148B4;
+	}
 `;
 
 const Navlogo = styled(navlogo)`
-	text-align: center;
-	width: 120px;
 	@media (max-width: 980px) {
 		display: none;
 	}

@@ -70,6 +70,10 @@ const WrapLeft = styled.div`
             justify-content: center;
         }
     }
+
+    .text_decoration{
+        text-decoration: none;
+    }
     `
 
 const Icon = styled.div``
@@ -104,26 +108,11 @@ const WrapRight = styled.div`
         line-height: 25px;
     }
 
-    .checkbox_wrap{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
     form{
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
-
-    .checkbox_wrap{
-        margin-left: 5px;
-    }
-
-    .checkbox_color{
-        accent-color: #E148B4;
-        transform: scale(1.3)
     }
 
     @media screen and (max-width:1116px) {

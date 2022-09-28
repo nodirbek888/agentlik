@@ -17,6 +17,7 @@ import JamshidImg from '../../assets/img/Jamshid.jpg'
 import SherzodImg from '../../assets/img/Sherzod.jpg'
 import { Pagination, Navigation } from "swiper";
 
+
 export default function App() {
   return (
     <Conatiner className="jamomiz">

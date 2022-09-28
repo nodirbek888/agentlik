@@ -54,11 +54,11 @@ const Wrapper = styled.div`
 const CardOne = styled.div`
     width: 30%;
     height: fit-content;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 30px 40px;
-    min-height: 470px;
+    padding: 30px 30px;
     background: linear-gradient(139.55deg, #A81F36 29.48%, #FF002B 95.11%);
     border-radius: 20px ;
 
@@ -76,7 +76,7 @@ const CardOne = styled.div`
 const CardTwo = styled.div`
     width: 30%;
     height: fit-content;
-    min-height: 470px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     gap: 20px;

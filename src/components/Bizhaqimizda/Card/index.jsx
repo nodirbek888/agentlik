@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Wrapper,Cards,Icon} from './style'
+
+
 const Card = () => {
   return (
     <Container>

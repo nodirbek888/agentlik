@@ -39,7 +39,14 @@ const Wrapper = styled.div`
 const Card = styled.div`
     width: 320px;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #D9D9D9;
+
+    img{
+        width: 200px;
+    }
 `
 
 export {Container,Wrapper,Card}

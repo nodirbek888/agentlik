@@ -4,6 +4,7 @@ import like from '../../assets/img/like.png'
 import Imput from '../../Generic/Input/index'
 import Button from '../../Generic/Button/index'
 
+
 const Footer = () => {
   return (
     <Container>
@@ -15,8 +16,8 @@ const Footer = () => {
                 </div>
                 <div className='communication'>
                     <a className='sub-title_white' href="#">loremipsum@gmail.com</a>
-                    <p className='sub-title_white'>+99893 337 24 31</p>
-                    <p className='sub-title_white'>+99893 094 65 52</p>
+                    <a className='sub-title_white text_decoration' href="tel:+998123-12-32">+99893 337 24 31</a>
+                    <a className='sub-title_white text_decoration'href="tel:+998123-12-32">+99893 094 65 52</a>
                     <div className='communication_item'>
                         <a href="#">
                         <Icon.Telegram/>
@@ -41,10 +42,6 @@ const Footer = () => {
                 <Imput width='100%' hight='50px' placeholder='Ismingiz'/>
                 <Imput width='100%' hight='50px' placeholder='Telefon raqam'/>
                 <Imput width='100%' hight='50px' placeholder='Email'/>
-                <div className='checkbox_wrap'>
-                    <input className='checkbox_color' type="checkbox" />
-                    <p className='small-description'>Men shaxsiy ma’lumotlarimni berishga roziman</p>
-                </div>
                 </form>
                 <div className='btn_wrap'>
                     <Button type={'primary'} width='200px'>Yuborish</Button>

@@ -20,7 +20,7 @@ const Navbar = () => {
   const [menuOpen, setmenuOpen] = useState(false);
 
   const openMenu = () => {
-    document.body.style.overflow = menuOpen ? "hidden" : "auto";
+    // document.body.style.overflow = menuOpen ? "hidden" : "auto";
     setmenuOpen((p) => !p);
   };
   const closeMenu = () => {
@@ -58,7 +58,7 @@ const Navbar = () => {
                 return (
                   <div key={id}>
                     <Navlink onClick={(e) => goTo(e, path)} key={id}>
-                      <p className="sub_title">{title}</p>
+                      <p className="sub_title title_hover">{title}</p>
                     </Navlink>
                   </div>
                 );
@@ -77,11 +77,11 @@ const Navbar = () => {
             </LinkSection.Body>
           </LinkSection>
           <Cantacts>
-            <a className="tel sub-title_white" href="#">
-              +998 (90) 123-12-32
-            </a>
-            <a href="" className="sub-title_white">
+          <span className="sub-title_white">
               Murojat qilish
+          </span>
+            <a className="tel sub-title_white" href="tel:+998123-12-32">
+              +998 (90) 123-12-32
             </a>
           </Cantacts>
         </Wrapper>
